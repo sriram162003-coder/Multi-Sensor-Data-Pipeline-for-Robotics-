@@ -53,12 +53,11 @@ streamlit run app.py --server.port 5000
 
 ```
 multi-sensor-data-pipeline/
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── README.md             # This file
-└── .streamlit/
-    └── config.toml       # Streamlit configuration
-```
+ app.py                  Main Streamlit application
+ requirements.txt        Python dependencies
+ README.md              
+ streamlit/
+       config.toml       Streamlit configuration
 
 ## Technologies Used
 
