@@ -18,14 +18,6 @@ A web-based application for recording, cleaning, and synchronizing data from mul
 | Motion/IMU | Accelerometer (X, Y, Z), Gyroscope (X, Y, Z) |
 | External Logs | Gripper events, arm movements, calibration events |
 
-## Screenshots
-
-The application provides:
-- Multi-sensor timeline visualization
-- Object trajectory tracking
-- Sensor correlation matrix
-- Data quality reports
-
 ## Installation
 
 ### Prerequisites
@@ -35,30 +27,27 @@ The application provides:
 ### Setup
 
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/yourusername/multi-sensor-data-pipeline.git
 cd multi-sensor-data-pipeline
-```
+
 
 2. Install dependencies:
-```bash
 pip install -r requirements.txt
-```
 
 3. Run the application:
-```bash
 streamlit run app.py --server.port 5000
-```
+
 
 4. Open your browser to `http://localhost:5000`
 
 ## Usage
 
-1. **Load Data**: Click "Generate Sample Dataset" to create test data, or upload your own CSV files
-2. **Clean Data**: Use the Data Cleaning tab to remove noise and fix errors
-3. **Synchronize**: Align all sensors to a common timeline
-4. **Visualize**: Explore the synchronized data with interactive charts
-5. **Export**: Download the processed data for further analysis
+1. Load Data: Click "Generate Sample Dataset" to create test data, or upload your own CSV files
+2. Clean Data: Use the Data Cleaning tab to remove noise and fix errors
+3. Synchronize: Align all sensors to a common timeline
+4. Visualize: Explore the synchronized data with interactive charts
+5. Export: Download the processed data for further analysis
 
 ## Project Structure
 
