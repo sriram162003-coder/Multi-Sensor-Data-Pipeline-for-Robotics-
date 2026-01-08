@@ -70,7 +70,7 @@ multi-sensor-data-pipeline/
 
 **Sriram M**
 - Email: sriram162003@icloud.com
-- Education: B.Tech in Computer Science Engineering, SRM University, Trichy (2023-2027)
+- Education: B.Tech in Computer Science Engineering, SRM University (2023-2027)
 
 ## License
 
